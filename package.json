@@ -1,6 +1,6 @@
 {
   "name": "speeds",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Speeds controllable stream. Uou can control the downstream speed on your own.",
   "main": "index.js",
   "scripts": {
