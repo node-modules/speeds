@@ -4,12 +4,7 @@
   "description": "Speeds controllable stream. Uou can control the downstream speed on your own.",
   "main": "index.js",
   "scripts": {
-    "test": "make test-all"
-  },
-  "config": {
-    "cov": {
-      "threshold": 100
-    }
+    "test": "make test"
   },
   "dependencies": {
     "debug": "~2.1.3"

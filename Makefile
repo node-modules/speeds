@@ -4,7 +4,7 @@ TIMEOUT = 10000
 MOCHA_OPTS =
 
 install:
-	@npm install --registry=http://r.cnpmjs.org --disturl=http://dist.cnpmjs.org
+	@npm install
 
 jshint:
 	@./node_modules/.bin/jshint .
@@ -26,16 +26,6 @@ test-cov cov:
 		$(MOCHA_OPTS) \
 		$(TESTS)
 	@./node_modules/.bin/cov coverage
-	@-$(MAKE) check-coverage
-
-check-coverage:
-	@./node_modules/.bin/istanbul check-coverage \
-		--statements 100 \
-		--functions 100 \
-		--branches 100 \
-		--lines 100
-
-test-all: install jshint test cov
 
 autod: install
 	@./node_modules/.bin/autod -w
