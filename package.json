@@ -8,6 +8,7 @@
   ],
   "scripts": {
     "test": "mocha -t 10000 test/*.test.js",
+    "ci": "nyc npm test",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
     "autod": "autod --prefix '^' -w"
   },
@@ -17,8 +18,8 @@
   "devDependencies": {
     "autod": "*",
     "contributors": "*",
-    "istanbul": "*",
     "mocha": "*",
+    "nyc": "^11.0.2",
     "semantic-release": "^6.3.6",
     "should": "^11.2.1"
   },
