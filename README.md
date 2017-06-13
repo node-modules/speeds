@@ -1,11 +1,12 @@
 speeds
 =======
 
-[![Build Status](https://secure.travis-ci.org/fengmk2/speeds.png)](http://travis-ci.org/fengmk2/speeds) [![Dependency Status](https://gemnasium.com/fengmk2/speeds.png)](https://gemnasium.com/fengmk2/speeds)
+[![Build Status](https://secure.travis-ci.org/node-modules/speeds.png)](http://travis-ci.org/node-modules/speeds)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
 
-[![NPM](https://nodei.co/npm/speeds.png?downloads=true&stars=true)](https://nodei.co/npm/speeds/)
+Speeds controllable stream.
 
-Speeds controllable stream. Uou can control the downstream speed on your own.
+You can control the downstream speed on your own.
 
 ## Install
 
