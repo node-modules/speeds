@@ -1,4 +1,9 @@
 
+2.0.0 / 2017-06-13
+==================
+
+  * refactor: upgrade debug and only support new node versions (#6)
+
 1.0.0 / 2015-04-27
 ==================
 
