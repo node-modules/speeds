@@ -1,11 +1,21 @@
 speeds
 =======
 
-[![Build Status](https://secure.travis-ci.org/fengmk2/speeds.png)](http://travis-ci.org/fengmk2/speeds) [![Dependency Status](https://gemnasium.com/fengmk2/speeds.png)](https://gemnasium.com/fengmk2/speeds)
+[![NPM version][npm-image]][npm-url]
+[![build status][travis-image]][travis-url]
+[![npm download][download-image]][download-url]
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg?style=flat-square)](https://github.com/semantic-release/semantic-release)
 
-[![NPM](https://nodei.co/npm/speeds.png?downloads=true&stars=true)](https://nodei.co/npm/speeds/)
+[npm-image]: https://img.shields.io/npm/v/speeds.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/speeds
+[travis-image]: https://img.shields.io/travis/node-modules/speeds.svg?style=flat-square
+[travis-url]: https://travis-ci.org/node-modules/speeds
+[download-image]: https://img.shields.io/npm/dm/speeds.svg?style=flat-square
+[download-url]: https://npmjs.org/package/speeds
 
-Speeds controllable stream. Uou can control the downstream speed on your own.
+Speeds controllable stream.
+
+You can control the downstream speed on your own.
 
 ## Install
 
